@@ -11,7 +11,7 @@ from torch_geometric.data import InMemoryDataset
 
 from util.load_other_datasets import *
 
-def my_load_data(args, data_name, feature_noise):
+def my_load_Hyper_data(args, data_name, feature_noise):
     existing_dataset = ['20newsW100', 'ModelNet40', 'zoo',
                         'NTU2012', 'Mushroom',
                         'coauthor_cora', 'coauthor_dblp',
